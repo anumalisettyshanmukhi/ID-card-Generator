@@ -1,0 +1,86 @@
+body{
+    background-color: rgba(141, 157, 199,0.499);
+}
+.heading{
+    color:rgb(255, 255, 187);
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family:sans-serif;
+    text-shadow: 0px 0px 10px black;
+}
+.container{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+.form{
+    margin:20px auto;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input{
+    padding:10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: beige;
+}
+.card-preview{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.id-card{
+    width: 350px;
+    /*height: 200px; */
+    border:2px solid #000;
+    border-radius: 10px;
+    padding: 15px;
+    background-image: radial-gradient(white, #2e3e98aa);
+    text-align: left;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.id-card h2{
+    color: white;
+    font-family: sans-serif;
+    text-shadow: 0px 0px 10px black;
+}
+.card-content{
+    display:flex;
+    align-items: center;
+    gap: 10px;
+}
+.photo-placeholder{
+    width:80px;
+    height: 100px;
+    background: #ccc;
+    text-align: center;
+    line-height: 100px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.details p{
+    margin: 5px 0;
+    padding: 10px;
+    font-size: larger;
+}
+.company{
+    text-align: center;
+    /*margin-top: 10px;*/
+    color: white;
+    font-family: sans-serif;
+    text-shadow: -7px 0px 15px #293786;
+}
+.company h3{
+   margin: 0;
+   padding: 15px;
+   font-size: 25px; 
+}
+.company p{
+    margin: 0;
+    font-size: 20px;
+}
